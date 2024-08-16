@@ -1,8 +1,6 @@
-# React + Vite
+# JSSat
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Just a little project to practice 3JS (react three fiber) using the public TLE API (https://tle.ivanstanojevic.me/)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TLE or Two Line Element, is a way to represent orbits. The TLE API provides two line elements of objects orbiting Earth.
