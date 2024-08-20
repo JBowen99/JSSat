@@ -224,8 +224,9 @@ function App() {
   const fetchTLEData = async (page) => {
     setLoading(true);
     console.log("fetching page " + page);
+    const url = "https://tle.ivanstanojevic.me/api"; //debug through proxy is /api
     try {
-      const response = await fetch(`/api?page=${page}`); // Use the proxy path
+      const response = await fetch(`${url}?page=${page}`);
       if (!response.ok) {
         throw new Error("Network response was not ok");
       }
