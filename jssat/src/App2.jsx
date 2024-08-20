@@ -224,7 +224,7 @@ function App() {
   const fetchTLEData = async (page) => {
     setLoading(true);
     console.log("fetching page " + page);
-    const url = "https://tle.ivanstanojevic.me/api"; //debug through proxy is /api
+    const url = "https://tle.ivanstanojevic.me/api/tle"; //debug through proxy is /api
     try {
       const response = await fetch(`${url}?page=${page}`);
       if (!response.ok) {
