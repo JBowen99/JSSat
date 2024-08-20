@@ -12,9 +12,11 @@ body,
   overflow: hidden;
   height: 100vh;
   width: 100vw;
-}
+  }
 
 #root {
   font-family: inter;
   background: #17192e;
-}
+  }
+
+
