@@ -6,6 +6,7 @@ import path from "path";
 export default defineConfig({
   plugins: [react()],
 
+  /*
   server: {
     proxy: {
       "/api": {
@@ -16,6 +17,7 @@ export default defineConfig({
       },
     },
   },
+  */
 
   resolve: {
     alias: {
